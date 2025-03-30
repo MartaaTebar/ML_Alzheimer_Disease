@@ -11,11 +11,11 @@ def plot_confusion_matrix(y_test, y_pred, model_name):
     - y_pred: predicted results
     - model_name: name of the model for the plot
     '''
-    
+
     cm = confusion_matrix(y_test, y_pred)
     plt.figure(figsize=(6, 5))
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=["Clase 0", "Clase 1"], yticklabels=["Clase 0", "Clase 1"])
-    plt.xlabel('Predicho')
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=["Class 0", "Class 1"], yticklabels=["Clase 0", "Clase 1"])
+    plt.xlabel('Predict')
     plt.ylabel('Real')
-    plt.title(f'Matriz de Confusión - {model_name}')
+    plt.title(f'Confusion Matrix - {model_name}')
     plt.show()
