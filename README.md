@@ -17,11 +17,13 @@ The implemented solution involves:
 ### Repository Structure
 ```
 ML_Alzheimer_Disease/
-│-- data/                # Dataset files 
-│-- models/              # Saved ML models
-│-- notebooks/           # Jupyter Notebooks with analysis and training
-│-- results/             # Output results such as metrics, plots, and logs
-│-- src/                 # Python scripts 
+│-- src/                 # Main project directory
+│   │-- data_sample/     # Sample data files
+│   │-- img/            # Images used in report 
+│   │-- models/         # Saved ML models
+│   │-- notebooks/      # Jupyter Notebooks with analysis and training
+│   │-- results_notebook/ # Output results such as metrics, plots, etc
+│   │-- utils/          # Utility scripts
 │-- README.md            # Project documentation 
 ```
 
@@ -44,11 +46,13 @@ La solución implementada incluye:
 ### Estructura del Repositorio
 ```
 ML_Alzheimer_Disease/
-│-- data/                # Archivos del dataset 
-│-- models/              # Modelos de ML guardados
-│-- notebooks/           # Jupyter Notebooks con análisis y entrenamiento
-│-- results/             # Resultados como métricas, gráficos y logs
-│-- src/                 # Scripts Python
-│-- README.md            # Documentación del proyecto
+│-- src/                 # Directorio principal del proyecto
+│   │-- data_sample/     # Archivos de datos de muestra
+│   │-- img/            # Imágenes utilizadas en el informe
+│   │-- models/         # Modelos de ML guardados
+│   │-- notebooks/      # Jupyter Notebooks con análisis y entrenamiento
+│   │-- results_notebook/ # Resultados como métricas, gráficos, etc
+│   │-- utils/          # Scripts de utilidad 
+│-- README.md            # Documentación del proyecto 
 ```
 
